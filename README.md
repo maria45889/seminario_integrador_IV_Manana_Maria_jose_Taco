@@ -5,10 +5,9 @@ Repositorio académico para organizar los repasos, ejercicios, prácticas y proy
 ## Objetivo
 
 Integrar conocimientos de programación y desarrollo de software mediante ejercicios y proyectos prácticos, utilizando herramientas actuales para construir, ejecutar y organizar aplicaciones.
+## Semana 2: Python Fundamentals
 
-## Semana del 12 al 18 de octubre de 2026
-
-### Python Fundamentals
+**Fecha:** 12 de octubre de 2026
 
 Repaso de los fundamentos necesarios para construir programas en Python:
 
