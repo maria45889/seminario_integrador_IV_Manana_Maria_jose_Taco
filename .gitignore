@@ -1,0 +1,63 @@
+# Python: bytecode, caches and package/build artifacts (at any depth)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+site/
+
+# Python virtual environments, including those created with uv or venv
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Environment variables and local secrets
+.env.*
+!.env.example
+!.env.template
+
+# uv
+.uv/
+uv.lock.bak
+
+# Logs and local databases
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js and Angular
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+**/.angular/cache/
+coverage/
+*.tsbuildinfo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
