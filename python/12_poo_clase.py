@@ -1,0 +1,17 @@
+class Guerrero: 
+    nombre: str
+    raza: str
+
+    def __init__(self, nombre:str, raza: str):
+        self.nombre = nombre
+        self.raza = raza
+
+    def mostar_info(self):
+        print("Nombre ", self.nombre)
+        print("Raza ", self.raza)
+
+
+goku = Guerrero("Goku", "Saiyajin")
+vegeta = Guerrero("vegeta", "Saiyajin")
+piccolo = Guerrero("piccolo", "Namekiano")
+maria = Guerrero("Goku", "Humano")
